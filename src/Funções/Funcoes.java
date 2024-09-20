@@ -1,3 +1,5 @@
+package Funções;
+
 public class Funcoes {
     public static void main(String[] args) {
         calc(20, 5); //Argumentos

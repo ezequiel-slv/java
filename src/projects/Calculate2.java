@@ -1,3 +1,5 @@
+package projects;
+
 public class Calculate2 {
 
     public static void main(String[] args){

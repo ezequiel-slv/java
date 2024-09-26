@@ -1,3 +1,5 @@
+package projects;
+
 public class Calculate {
     public static void main(String[] args) {
         int x = Integer.parseInt(args[1]); // Integer.parseInt: converte os argumentos de string em int

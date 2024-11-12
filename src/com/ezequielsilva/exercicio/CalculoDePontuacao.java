@@ -4,7 +4,7 @@ import java.util.Scanner;
  Iniciante: Pontuação total é menor que 50 ou idade menor que 18.
  Intermediário: Pontuação total entre 50 e 100 e idade entre 18 e 30.
  Avançado: Pontuação total acima de 100 ou idade maior que 30.
- * formula: pontuacaoTotal=pontosObtidos+bonus−(tempoDeJogo%3)
+ * formula: pontuacaoTotal=pontosObtidos+bonus−(tempoDeJogo%3).
  * */
 public class CalculoDePontuacao {
     public static void main(String[] args) {

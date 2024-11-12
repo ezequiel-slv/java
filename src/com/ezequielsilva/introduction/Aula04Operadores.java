@@ -27,5 +27,22 @@ public class Aula04Operadores {
         boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3500;
         System.out.println("isDentroDaLeiMaiorQueTrinta" + isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta" + isDentroDaLeiMenorQueTrinta);
+
+        // = += -= *= /= %=
+
+        salario = 1200;
+        salario = salario + 200; //forma básica
+
+        int ajuste = 1200;
+        ajuste += 200; //com atribuição aritimetica
+        System.out.println(ajuste);
+
+        //outra forma de atribuir: ++ e --
+        int idadeAluno = 20;
+        idadeAluno += 1;
+        idadeAluno ++;
+        System.out.println(idadeAluno);
+
+        
     }
 }

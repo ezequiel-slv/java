@@ -22,6 +22,17 @@ public class Revisão02Operadores {
         boolean condioes1 = x > 10 && y < 10;
         boolean condioes2 = x == 15 || y == 15;
         System.out.println("X é maior que 10 e y é menor que 10? "+condioes1);
-        System.out.println("X igal a 15 ou y é igual 15? "+condioes2);
+        System.out.println("X igual a 15 ou y é igual 15? "+condioes2);
+
+        int z = 50;
+        z += 10;
+        z *= 2;
+        System.out.println(z);
+
+        int idade = 25;
+        idade ++;
+        idade --;
+        System.out.println(idade);
+
     }
 }

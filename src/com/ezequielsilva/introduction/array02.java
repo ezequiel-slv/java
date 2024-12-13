@@ -8,7 +8,15 @@ public class array02 {
         nomes[0] = "Ezequiel";
         nomes[1] = "Silva";
         nomes[2] = "Lima";
-
-        System.out.println(nomes[0]+' '+ nomes[1]+' '+ nomes[2]);
+         
+        //com laço de repetição
+        for (int i = 0; i < 3; i++) {
+            System.out.println(nomes[i]);
+        }
+       //concatenado
+        System.out.println(nomes[0]+" "+ nomes[1]+" "+ nomes[2]);
     }
 }
+
+
+

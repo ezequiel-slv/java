@@ -10,7 +10,7 @@ public class array02 {
         nomes[2] = "Lima";
          
         //com laço de repetição
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < nomes.length; i++) {
             System.out.println(nomes[i]);
         }
        //concatenado

@@ -1,4 +1,4 @@
-package com.ezequielsilva.introduction;
+package com.ezequielsilva.exercicio;
 
 public class Aula03TiposPrimitivosExercicios {
 
